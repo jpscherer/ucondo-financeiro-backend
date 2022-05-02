@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Ucondo_Financeiro_Api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ucondo-Financeiro-Data\Ucondo-Financeiro-Data.csproj" />
+    <ProjectReference Include="..\Ucondo-Financeiro-Dominio\Ucondo-Financeiro-Dominio.csproj" />
+    <ProjectReference Include="..\Ucondo-Financeiro-Infra\Ucondo-Financeiro-Infra.csproj" />
+    <ProjectReference Include="..\Ucondo-Financeiro-Service\Ucondo-Financeiro-Service.csproj" />
+  </ItemGroup>
+
+</Project>

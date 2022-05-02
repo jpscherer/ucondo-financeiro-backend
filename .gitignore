@@ -3,6 +3,19 @@
 ################################################################################
 
 /.vs
+/Ucondo-Financeiro-Api/obj
+/Ucondo-Financeiro-Api/bin/Debug/net6.0
+/Ucondo-Financeiro-Data/obj
+/Ucondo-Financeiro-Data/bin/Debug/net6.0
+/Ucondo-Financeiro-Dominio/obj
+/Ucondo-Financeiro-Dominio/bin/Debug/net6.0
+/Ucondo-Financeiro-Infra/obj
+/Ucondo-Financeiro-Infra/bin/Debug/net6.0
+/Ucondo-Financeiro-Interfaces/obj
+/Ucondo-Financeiro-Service/obj
+/Ucondo-Financeiro-Service/bin/Debug/net6.0
+/Ucondo-Financeiro-Testes/obj
+/Ucondo-Financeiro-Testes/bin/Debug/net6.0
 /Ucondo-Financeiro-Testes/obj
 /Ucondo-Financeiro-Testes/bin/Debug/net6.0
 /Ucondo-Financeiro-Service/obj
